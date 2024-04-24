@@ -15,11 +15,6 @@ public class Fibonacci {
     }
 
     public static boolean verificaSePertenceFibonacci(int numero){
-        // verifica se o numero é negativo
-        if (numero < 0){
-            return false;
-        }
-
         int termo = 0;
         int indice = 0;
 
